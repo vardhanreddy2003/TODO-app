@@ -31,11 +31,18 @@ To run this project locally:
 
 
 ## 🛠 Technologies Used
+###  Frontend:
 HTML5
 
 CSS3 (custom styles)
 
 JavaScript (for dynamic functionality, if implemented)
+
+### Backend:
+- Java 17+
+- Spring Boot (Spring Web, Spring Data JPA)
+- H2 / MySQL (configurable)
+- Maven or Gradle
 
 📌 To Do
  Add localStorage or backend integration
@@ -47,3 +54,10 @@ JavaScript (for dynamic functionality, if implemented)
 📃 License
 This project is open source.
 
+
+### Note:
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot
+spring.datasource.username=update your my sql username here
+spring.datasource.password=update your my sql password here
+
+*add these three lines in application.properties file in backend
